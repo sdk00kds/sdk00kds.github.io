@@ -1,0 +1,92 @@
+@import url(sanitize.css);
+
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #efefef;
+  padding: 32px 0;
+}
+
+.container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon {}
+
+.icon img {
+  border-radius: 50%;
+  /*
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+*/
+  border: 4px solid white;
+}
+
+.info {
+  margin-left: 32px;
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.info ul li {
+  margin-right: 8px;
+}
+
+.works {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.works > h1 {
+  /* 「>」は「直下の」を指定する*/
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.works > section {
+  margin-bottom: 60px;
+}
+
+.works > section > h1 {
+  font-weight: normal;
+}
+
+.works p {
+  line-height: 1.8;
+  /*行間の高さを親要素の1.8倍に*/
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
